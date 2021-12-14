@@ -1,4 +1,4 @@
-# `<h1 align=center>` coffee-app `</h1>`
+# <h1 align=center> coffee-app </h1>
 
 ## Cách lấy về:
 
