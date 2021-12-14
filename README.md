@@ -17,6 +17,17 @@
 - Nếu muốn nhập vào repo này: Tạo __Pull request__
 
 # Ghi chú:
-
+- Mỗi khi mở project hãy cập nhật lại repo:
+  - __Cách 1__: `Ctrl+Alt+W`, nó hiện bảng thì nhấn OK thôi 
+  - __Cách 2__: Mở terminal, chạy lần lượt:
+  ```
+  git fetch upstream
+  ```
+  ```
+  git checkout master 
+  ```
+  ```
+  git merge upstream/master
+  ```
 - Mấy cái mà được nhắc đến thì tự nhìn xung quanh cái app ấy, kiểu gì chả ra :|
 - Nên chỉnh cái này: `settings` > `Appearance & Behavior` > `System Settings` > Ở mục `Project`: bỏ chọn `Reopen project on startup`, xong thì bấm `apply` ở cuối cái bảng settings to lù lù đấy :)__
