@@ -3,14 +3,6 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
-        <entry key="..\:/Users/kriti/AndroidStudioProjects/coffee/app/src/main/res/drawable/item_selector.xml" value="0.27685185185185185" />
-        <entry key="..\:/Users/kriti/AndroidStudioProjects/coffee/app/src/main/res/drawable/rounded_corner.xml" value="0.403125" />
-        <entry key="..\:/Users/kriti/AndroidStudioProjects/coffee/app/src/main/res/layout/activity_main.xml" value="0.26197916666666665" />
-        <entry key="..\:/Users/kriti/AndroidStudioProjects/coffee/app/src/main/res/layout/fragment_home.xml" value="0.18819655521783182" />
-        <entry key="..\:/Users/kriti/AndroidStudioProjects/coffee/app/src/main/res/layout/fragment_lists.xml" value="0.15" />
-        <entry key="..\:/Users/kriti/AndroidStudioProjects/coffee/app/src/main/res/layout/fragment_products.xml" value="0.15" />
-        <entry key="..\:/Users/kriti/AndroidStudioProjects/coffee/app/src/main/res/layout/fragment_settings.xml" value="0.15" />
-        <entry key="..\:/Users/kriti/AndroidStudioProjects/coffee/app/src/main/res/menu/item_menu.xml" value="0.38697916666666665" />
       </map>
     </option>
   </component>

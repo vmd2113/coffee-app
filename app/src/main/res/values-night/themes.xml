@@ -2,12 +2,12 @@
     <!-- Base application theme. -->
     <style name="Theme.Coffee" parent="Theme.MaterialComponents.DayNight.NoActionBar">
         <!-- Primary brand color. -->
-        <item name="colorPrimary">@color/brown</item>
-        <item name="colorPrimaryVariant">@color/milk_brown</item>
+        <item name="colorPrimary">@color/foreground</item>
+        <item name="colorPrimaryVariant">@color/menu</item>
         <item name="colorOnPrimary">@color/background</item>
         <!-- Secondary brand color. -->
-        <item name="colorSecondary">@color/light_brown</item>
-        <item name="colorSecondaryVariant">@color/milk_brown</item>
+        <item name="colorSecondary">@color/foreground</item>
+        <item name="colorSecondaryVariant">@color/menu</item>
         <item name="colorOnSecondary">@color/background</item>
         <!-- Status bar color. -->
         <item name="android:statusBarColor" tools:targetApi="l">?attr/colorPrimaryVariant</item>
