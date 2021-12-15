@@ -14,10 +14,9 @@
         android:layout_height="70dp"
         android:gravity="center"
         android:text="@string/text_products"
-        android:textSize="30dp"
+        android:textSize="30sp"
         android:textColor="@color/foreground"/>
         <TextView
-            android:drawableTop="@drawable/ic_baseline_add_circle_outline_24"
             android:paddingTop="30dp"
             android:paddingBottom="30dp"
             android:id="@+id/AddProduct"
@@ -26,7 +25,8 @@
             android:gravity="center"
             android:text="@string/text_products"
             android:textColor="@color/foreground"
-            android:textSize="24sp"/>
+            android:textSize="24sp"
+            app:drawableTopCompat="@drawable/ic_baseline_add_circle_outline_24" />
     <ListView
         android:id="@+id/ListProduct"
         android:layout_width="match_parent"
