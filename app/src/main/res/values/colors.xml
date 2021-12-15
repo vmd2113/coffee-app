@@ -3,4 +3,5 @@
     <color name="background">#333333</color>
     <color name="foreground">#FEFDF8</color>
     <color name="menu">#44475a</color>
+    <color name="blue">#00BCD4</color>
 </resources>
