@@ -17,7 +17,7 @@ import android.widget.Toast;
 
 import org.w3c.dom.Text;
 
-public class ProductsFragment extends Fragment implements AdapterView.OnItemClickListener {
+public class ProductsFragment extends Fragment implements AdapterView.OnItemClickListener, View.OnClickListener {
     @Nullable
     @Override
     public View onCreateView(@NonNull LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
@@ -28,15 +28,22 @@ public class ProductsFragment extends Fragment implements AdapterView.OnItemClic
     @Override
     public void onViewCreated(@NonNull View view, @Nullable Bundle savedInstanceState) {
         super.onViewCreated(view, savedInstanceState);
+        // Text
         TextView txtProduct = (TextView) view.findViewById(R.id.Products);
         txtProduct.setText("Sản phẩm");
         TextView txtAddProduct = (TextView) view.findViewById(R.id.AddProduct);
         txtAddProduct.setText("Thêm sản phẩm");
+        txtAddProduct.setOnClickListener(this);
+        //List view
         String[] List = {"Danh sách sản phẩm", "Nhập hàng", "Kiểm hàng", "Nhà cung cấp"};
         ListView listView = (ListView) view.findViewById(R.id.ListProduct);
         ArrayAdapter<String> adapter = new ArrayAdapter<>(getActivity(), android.R.layout.simple_list_item_1, List);
         listView.setAdapter(adapter);
         listView.setOnItemClickListener(this);
+    }
+    @Override
+    public void onClick(View view) {
+        Toast.makeText(getActivity(),"Thêm sản phẩm", Toast.LENGTH_SHORT).show();
     }
     @Override
     public void onItemClick(AdapterView<?> adapterView, View view, int i, long l) {
@@ -53,4 +60,6 @@ public class ProductsFragment extends Fragment implements AdapterView.OnItemClic
             Toast.makeText(getActivity(),"Nhà cung cấp", Toast.LENGTH_SHORT).show();
         }
     }
+
+
 }
