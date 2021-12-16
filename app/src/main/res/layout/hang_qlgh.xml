@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Hang_DSDH"
+    >
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/ToolbarQLGH"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="#FF44475A"
+        app:title="Quản lý giao hàng"
+        app:titleTextColor="#fff"
+        >
+    </androidx.appcompat.widget.Toolbar>
+
+    <TextView
+        android:layout_below="@+id/ToolbarQLGH"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="Quản lý giao hàng"
+        android:textColor="#000"
+        android:gravity="center"
+        android:textSize="15sp">
+    </TextView>
+
+</RelativeLayout>

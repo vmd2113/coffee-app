@@ -3,6 +3,13 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/NGUYEN XUAN VU/Desktop/coffee-app/app/src/main/res/drawable/custom_button.xml" value="0.15" />
+        <entry key="..\:/Users/NGUYEN XUAN VU/Desktop/coffee-app/app/src/main/res/layout/custom_button.xml" value="0.13385416666666666" />
+        <entry key="..\:/Users/NGUYEN XUAN VU/Desktop/coffee-app/app/src/main/res/layout/fragment_lists.xml" value="0.21666666666666667" />
+        <entry key="..\:/Users/NGUYEN XUAN VU/Desktop/coffee-app/app/src/main/res/layout/hang_dlt.xml" value="0.13385416666666666" />
+        <entry key="..\:/Users/NGUYEN XUAN VU/Desktop/coffee-app/app/src/main/res/layout/hang_dsdh.xml" value="0.13385416666666666" />
+        <entry key="..\:/Users/NGUYEN XUAN VU/Desktop/coffee-app/app/src/main/res/layout/hang_kth.xml" value="0.13385416666666666" />
+        <entry key="..\:/Users/NGUYEN XUAN VU/Desktop/coffee-app/app/src/main/res/layout/hang_qlgh.xml" value="0.13385416666666666" />
         <entry key="..\:/Users/kriti/AndroidStudioProjects/coffee-app/app/src/main/res/drawable/baseline_notifications_deep_orange_200_24dp.xml" value="0.403125" />
         <entry key="..\:/Users/kriti/AndroidStudioProjects/coffee-app/app/src/main/res/drawable/ic_bell_notif_24.xml" value="0.403125" />
         <entry key="..\:/Users/kriti/AndroidStudioProjects/coffee-app/app/src/main/res/drawable/ic_location_24.xml" value="0.403125" />
