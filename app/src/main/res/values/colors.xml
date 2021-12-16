@@ -4,4 +4,16 @@
     <color name="foreground">#FEFDF8</color>
     <color name="menu">#44475a</color>
     <color name="blue">#00BCD4</color>
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="setting_background">#E6A97A</color>
+    <color name="setting_card_background">#e0d5c8</color>
+    <color name="setting_Gradient_statColor">#E3D2CE</color>
+    <color name="setting_Gradient_centerColor">#E2BEA8</color>
+    <color name="setting_Gradient_endColor">#E6A97A</color>
 </resources>
