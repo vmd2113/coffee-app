@@ -3,6 +3,10 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/NCKH/app/src/main/res/layout/activity_login.xml" value="0.28940217391304346" />
+        <entry key="..\:/NCKH/app/src/main/res/layout/activity_main.xml" value="0.28940217391304346" />
+        <entry key="..\:/NCKH/app/src/main/res/layout/customdialog.xml" value="0.28940217391304346" />
+        <entry key="..\:/NCKH/app/src/main/res/layout/login_activity.xml" value="0.2957427536231884" />
         <entry key="..\:/Users/NGUYEN XUAN VU/Desktop/coffee-app/app/src/main/res/drawable/custom_button.xml" value="0.15" />
         <entry key="..\:/Users/NGUYEN XUAN VU/Desktop/coffee-app/app/src/main/res/layout/custom_button.xml" value="0.13385416666666666" />
         <entry key="..\:/Users/NGUYEN XUAN VU/Desktop/coffee-app/app/src/main/res/layout/fragment_lists.xml" value="0.21666666666666667" />
