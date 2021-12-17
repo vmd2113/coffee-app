@@ -17,7 +17,7 @@ import java.util.ArrayList;
  * Use the  factory method to
  * create an instance of this fragment.
  */
-public class SettingsFragment extends Fragment  {
+public class SettingsFragment extends Fragment {
 
 
     public SettingsFragment() {
@@ -32,17 +32,16 @@ public class SettingsFragment extends Fragment  {
     }
 
 
-
-
-
     @Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
 
 
     }
+
     @Override
     public void onViewCreated(@NonNull View view, Bundle savedInstanceState) {
+
         super.onViewCreated(view, savedInstanceState);
         RecyclerView optionRec = requireView().findViewById(R.id.optionsRec);
         setting_optionRecyclerViewAdapter adapter = new setting_optionRecyclerViewAdapter(this.getContext());
@@ -50,16 +49,16 @@ public class SettingsFragment extends Fragment  {
         optionRec.setLayoutManager(new LinearLayoutManager(getActivity()));
 
 
-
         ArrayList<setting_Options> options = new ArrayList<>();
-        options.add(new setting_Options("Report",R.drawable.setting_report_icon));
-        options.add(new setting_Options("Finance",R.drawable.setting_finance_icon));
-        options.add(new setting_Options("Config",R.drawable.setting_config_icon));
-        options.add(new setting_Options("Helper",R.drawable.setting_helper_icon));
+        options.add(new setting_Options("Report", R.drawable.setting_report_icon));
+        options.add(new setting_Options("Finance", R.drawable.setting_finance_icon));
+        options.add(new setting_Options("Config", R.drawable.setting_config_icon));
+        options.add(new setting_Options("Helper", R.drawable.setting_helper_icon));
 
         adapter.setSetting_options(options);
 
 
     }
+
 
 }
