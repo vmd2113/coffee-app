@@ -10,21 +10,24 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Coffee">
         <activity
+            android:name=".BaoCaoFragment"
+            android:exported="false" />
+        <activity
             android:name=".Hang_DLT"
             android:exported="false"
-            android:parentActivityName=".Hang_QLGH"/>
+            android:parentActivityName=".Hang_QLGH" />
         <activity
             android:name=".Hang_QLGH"
             android:exported="false"
-            android:parentActivityName=".Hang_QLGH"/>
+            android:parentActivityName=".Hang_QLGH" />
         <activity
             android:name=".Hang_KTH"
             android:exported="false"
-            android:parentActivityName=".Hang_QLGH"/>
+            android:parentActivityName=".Hang_QLGH" />
         <activity
             android:name=".Hang_DSDH"
             android:exported="false"
-            android:parentActivityName=".Hang_QLGH"/>
+            android:parentActivityName=".Hang_QLGH" />
         <activity
             android:name=".MainActivity"
             android:exported="true">
