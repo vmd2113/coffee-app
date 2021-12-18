@@ -39,12 +39,13 @@ public class BaoCaoFragment extends Fragment {
         listGroup.add("Báo cáo kho hàng");
         listGroup.add("Báo cáo tài chính");
         listGroup.add("Báo cáo khuyến mại");
+
         // Báo cáo doanh thu
         ArrayList<String> arrayList = new ArrayList<>();
         arrayList.add("Báo cáo doanh thu tổng quan");
         arrayList.add("Báo cáo doanh thu theo nhân viên");
         arrayList.add("Phí dịch vụ");
-        arrayList.add("Hình thức phục vụ");
+        arrayList.add("Hình thức phục vị");
         listChild.put(listGroup.get(0), arrayList);
         //Báo cáo mặt hàng
         ArrayList<String> arrayList1 = new ArrayList<>();
@@ -62,7 +63,7 @@ public class BaoCaoFragment extends Fragment {
         ArrayList<String> arrayList4 = new ArrayList<>();
         arrayList4.add("Chương trình khuyến mại");
         listChild.put(listGroup.get(4), arrayList4);
-        //Hiển thị view
+        //
         adapter = new MainAdapter(listGroup,listChild);
         expandableListView.setAdapter(adapter);
 

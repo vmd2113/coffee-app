@@ -57,26 +57,27 @@ public class MainAdapter extends BaseExpandableListAdapter {
 
     @Override
     public View getGroupView(int i, boolean b, View view, ViewGroup viewGroup) {
+        String sGroup = String.valueOf(getGroup(i));
         view = LayoutInflater.from(viewGroup.getContext()).inflate(android.R.layout.simple_list_item_1,viewGroup,false);
         TextView textView = view.findViewById(android.R.id.text1);
-        String sGroup = String.valueOf(getGroup(i));
 
         textView.setText(sGroup);
 
         textView.setTypeface(null, Typeface.BOLD);
 
-        textView.setTextColor(Color.WHITE);
-
+        textView.setTextColor(Color.BLACK);
+        textView.setPadding(80,0,0,0);
         return view;
     }
 
     @Override
     public View getChildView(int i, int i1, boolean b, View view, ViewGroup viewGroup) {
+        String sChild = String.valueOf(getChild(i,i1));
         view = LayoutInflater.from(viewGroup.getContext()).inflate(android.R.layout.simple_list_item_1,viewGroup,false);
         TextView textView = view.findViewById(android.R.id.text1);
-        String sChild = String.valueOf(getChild(i,i1));
+        textView.setTextColor(Color.BLACK);
         textView.setText(sChild);
-        textView.setTextColor(Color.WHITE);
+        textView.setPadding(120,0,0,0);
         textView.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {

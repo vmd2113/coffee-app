@@ -3,7 +3,11 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Android/coffee-app/app/src/main/res/layout/child_item.xml" value="0.2" />
         <entry key="..\:/Android/coffee-app/app/src/main/res/layout/fragment_baocao.xml" value="0.25" />
+        <entry key="..\:/Android/coffee-app/app/src/main/res/layout/fragment_lists.xml" value="0.25" />
+        <entry key="..\:/Android/coffee-app/app/src/main/res/layout/group_item.xml" value="0.264" />
+        <entry key="..\:/Android/coffee-app/app/src/main/res/layout/groupitem.xml" value="0.1" />
         <entry key="..\:/Android/coffee-app/app/src/main/res/layout/hang_dlt.xml" value="0.25" />
         <entry key="..\:/Users/NGUYEN XUAN VU/Desktop/coffee-app/app/src/main/res/drawable/custom_button.xml" value="0.15" />
         <entry key="..\:/Users/NGUYEN XUAN VU/Desktop/coffee-app/app/src/main/res/layout/custom_button.xml" value="0.13385416666666666" />
