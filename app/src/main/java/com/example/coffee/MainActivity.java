@@ -36,7 +36,7 @@ public class MainActivity extends AppCompatActivity {
                         break;
 
                     case R.id.nav_products:
-                        fragment = new ProductsFragment();
+                        fragment = new BaoCaoFragment();
                         break;
 
                     case R.id.nav_lists:
