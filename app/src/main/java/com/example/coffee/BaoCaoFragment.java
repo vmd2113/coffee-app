@@ -63,7 +63,7 @@ public class BaoCaoFragment extends Fragment {
         ArrayList<String> arrayList4 = new ArrayList<>();
         arrayList4.add("Chương trình khuyến mại");
         listChild.put(listGroup.get(4), arrayList4);
-        //
+        //aaaaaaaaaa
         adapter = new MainAdapter(listGroup,listChild);
         expandableListView.setAdapter(adapter);
 
