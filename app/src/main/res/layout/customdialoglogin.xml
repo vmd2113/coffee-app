@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    android:gravity="center">
+<TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="Dang Ky"
+    android:textSize="30dp"
+    android:textStyle="bold"
+    ></TextView>
+    <EditText
+        android:id="@+id/edttk"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Nhap Ten Nguoi Dung"
+        android:textStyle="italic"
+        android:layout_marginTop="15dp"
+        android:textSize="15dp">
+    </EditText>
+    <EditText
+        android:id="@+id/edtpass"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Nhap Mat Khau"
+        android:textStyle="italic"
+        android:layout_marginTop="15dp"
+        android:textSize="15dp">
+    </EditText>
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:orientation="horizontal">
+        <Button
+            android:id="@+id/btnhuy"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Huy"></Button>
+        <Button
+            android:id="@+id/btndongy"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:text="Dong Y"></Button>
+
+    </androidx.appcompat.widget.LinearLayoutCompat>
+
+</LinearLayout>
