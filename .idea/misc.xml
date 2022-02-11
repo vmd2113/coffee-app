@@ -3,12 +3,26 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Android/coffee-app/app/src/main/res/drawable/custom_button.xml" value="0.26614583333333336" />
+        <entry key="..\:/Android/coffee-app/app/src/main/res/layout/activity_bao_cao_doanh_thu.xml" value="0.25" />
+        <entry key="..\:/Android/coffee-app/app/src/main/res/layout/activity_bao_cao_kho_hang.xml" value="0.25" />
+        <entry key="..\:/Android/coffee-app/app/src/main/res/layout/activity_bao_cao_khuyen_mai.xml" value="0.2318840579710145" />
+        <entry key="..\:/Android/coffee-app/app/src/main/res/layout/activity_bao_cao_tai_chinh.xml" value="0.2318840579710145" />
+        <entry key="..\:/Android/coffee-app/app/src/main/res/layout/activity_listview_taobaocao.xml" value="0.2318840579710145" />
+        <entry key="..\:/Android/coffee-app/app/src/main/res/layout/activity_login.xml" value="0.24547101449275363" />
+        <entry key="..\:/Android/coffee-app/app/src/main/res/layout/activity_tao_bao_cao.xml" value="0.23143115942028986" />
+        <entry key="..\:/Android/coffee-app/app/src/main/res/layout/activity_tao_bao_cao_doanh_thu.xml" value="0.24547101449275363" />
         <entry key="..\:/Android/coffee-app/app/src/main/res/layout/child_item.xml" value="0.2" />
-        <entry key="..\:/Android/coffee-app/app/src/main/res/layout/fragment_baocao.xml" value="0.25" />
-        <entry key="..\:/Android/coffee-app/app/src/main/res/layout/fragment_lists.xml" value="0.25" />
+        <entry key="..\:/Android/coffee-app/app/src/main/res/layout/child_view.xml" value="0.1" />
+        <entry key="..\:/Android/coffee-app/app/src/main/res/layout/fragment_baocao.xml" value="0.264" />
+        <entry key="..\:/Android/coffee-app/app/src/main/res/layout/fragment_lists.xml" value="0.264" />
+        <entry key="..\:/Android/coffee-app/app/src/main/res/layout/fragment_products.xml" value="0.2" />
         <entry key="..\:/Android/coffee-app/app/src/main/res/layout/group_item.xml" value="0.264" />
+        <entry key="..\:/Android/coffee-app/app/src/main/res/layout/group_view.xml" value="0.2" />
         <entry key="..\:/Android/coffee-app/app/src/main/res/layout/groupitem.xml" value="0.1" />
         <entry key="..\:/Android/coffee-app/app/src/main/res/layout/hang_dlt.xml" value="0.25" />
+        <entry key="..\:/Android/coffee-app/app/src/main/res/layout/hang_dsdh.xml" value="0.2318840579710145" />
+        <entry key="..\:/Android/coffee-app/app/src/main/res/layout/login.xml" value="0.25" />
         <entry key="..\:/Users/NGUYEN XUAN VU/Desktop/coffee-app/app/src/main/res/drawable/custom_button.xml" value="0.15" />
         <entry key="..\:/Users/NGUYEN XUAN VU/Desktop/coffee-app/app/src/main/res/layout/custom_button.xml" value="0.13385416666666666" />
         <entry key="..\:/Users/NGUYEN XUAN VU/Desktop/coffee-app/app/src/main/res/layout/fragment_lists.xml" value="0.21666666666666667" />

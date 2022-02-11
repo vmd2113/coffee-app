@@ -10,6 +10,21 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Coffee">
         <activity
+            android:name=".Bao_Cao_Khuyen_Mai"
+            android:exported="false" />
+        <activity
+            android:name=".Bao_Cao_Tai_Chinh"
+            android:exported="false" />
+        <activity
+            android:name=".Bao_Cao_Kho_Hang"
+            android:exported="false" />
+        <activity
+            android:name=".Bao_Cao_Doanh_Thu"
+            android:exported="false" />
+        <activity
+            android:name=".Tao_Bao_Cao"
+            android:exported="false" />
+        <activity
             android:name=".Hang_DLT"
             android:exported="false"
             android:parentActivityName=".Hang_QLGH" />
@@ -27,17 +42,15 @@
             android:parentActivityName=".Hang_QLGH" />
         <activity
             android:name=".MainActivity"
-            android:exported="true">
-
-        </activity>
-        <activity android:name=".login"
+            android:exported="true" />
+        <activity
+            android:name=".login"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
-
         </activity>
     </application>
 

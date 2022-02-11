@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Tao_Bao_Cao"
+    >
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/ToolbarTBC"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="#FF44475A"
+        app:title="Tạo báo cáo"
+        app:titleTextColor="#fff"
+        >
+    </androidx.appcompat.widget.Toolbar>
+    <TextView
+        android:id="@+id/txtLoaiBaoCao"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_below="@+id/ToolbarTBC"
+        android:text="Chọn loại báo cáo bạn muốn tạo: "
+        android:gravity="center"
+        android:textSize="21sp"
+        android:textStyle="bold"
+        android:layout_marginTop="20dp"
+        />
+    <ListView
+        android:id="@+id/listviewTaoBaoCao"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/txtLoaiBaoCao"
+ />
+
+</RelativeLayout>

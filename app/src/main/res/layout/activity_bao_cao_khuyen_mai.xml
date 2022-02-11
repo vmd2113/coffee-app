@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Tao_Bao_Cao"
+    >
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/ToolbarBCKM"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="#FF44475A"
+        app:title="Báo cáo khuyến mại"
+        app:titleTextColor="#fff"
+        >
+    </androidx.appcompat.widget.Toolbar>
+
+    <TextView
+        android:layout_below="@+id/ToolbarBCKM"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="Báo cáo khuyến mại"
+        android:textColor="#000"
+        android:gravity="center"
+        android:textSize="15sp">
+    </TextView>
+
+</RelativeLayout>
